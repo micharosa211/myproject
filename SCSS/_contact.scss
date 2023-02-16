@@ -1,0 +1,152 @@
+.contact {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: $primary-font-family;
+   
+
+    .desctop-background {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        width: 40%;
+        
+       
+    }
+
+    .contact-form {
+        width: 60%;
+        background-color: $primary-color;
+        padding: 140px 40px;
+
+        .contact-form-info {
+            font-size: 20px;
+            padding-bottom: 15px;
+        }
+
+    
+
+
+
+        .contact-message {
+            width: 100%;
+            display: none;
+
+            &.error {
+                display: block;
+                font-size: 20px;
+                color: red;
+            }
+
+            &.send {
+                display: block;
+                color: $font-color;
+            }
+
+        }
+
+    }
+
+
+}
+input,
+select,
+textarea {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid $font-color;
+    background-color: $primary-color;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: $font-color;
+    text-transform: uppercase;
+
+    &::-webkit-input-placeholder {
+        /* Edge */
+        color: $font-color;
+    }
+
+    &::-moz-placeholder {
+        /* Edge */
+        color: $font-color;
+    }
+
+    &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: $font-color;
+    }
+
+    &:-moz-placeholder {
+        color: $font-color;
+    }
+
+    &.error {
+        border-bottom: 1px solid red;
+    }
+}
+
+label {
+    text-transform: uppercase;
+}
+
+textarea {
+    height: 100px;
+}
+.btn-form {
+    @extend %btn;
+    font-weight: 700;
+    background-color: $additional-color;
+    color: #fff;
+
+    &:hover {
+        background-color: #fff;
+        color: $font-color;
+    }
+}
+
+@media all and (max-width: 1200px) {
+
+    .contact {
+
+
+        .contact-form {
+         
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+    }  
+}
+
+@media all and (max-width: 768px) {
+
+    .desctop-background {
+        display: none;
+
+    }
+
+    .contact {
+
+
+        .contact-form {
+            width: 100%;
+            padding-top: 100px;
+            padding-bottom: 100px;
+
+
+
+            input,
+            select {
+                width: 100%;
+
+            }
+
+            textarea {
+                margin: 30px 0;
+            }
+
+
+        }
+    }
+}

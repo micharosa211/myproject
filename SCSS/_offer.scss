@@ -1,0 +1,49 @@
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    // animation-iteration-count: infinite;  
+
+    
+  
+
+    h2 {
+        font-family: fantasy;
+        padding-top: 160px;
+        color: $font-color;
+        font-size: $headers;
+        // text-shadow: 0 5px 20px $font-color;
+        margin: 0;
+     
+
+    }
+
+    p {
+        font-family: $primary-font-family;
+        font-size: $font-text;
+        color: $font-color;
+        padding: 50px 0 160px 0;
+        // text-shadow: 0 5px 20px $font-color;
+        line-height: 30px;
+    }
+}
+
+
+@media all and (max-width: 1200px) {
+    .offer {
+
+        h2 {
+            font-size: $headers-md;
+            padding-top: 80px;
+        }
+
+        p {
+            font-size: $font-tekst-md;
+            padding-bottom: 80px;
+
+        }
+
+    }
+}

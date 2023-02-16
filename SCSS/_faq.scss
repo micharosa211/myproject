@@ -1,0 +1,64 @@
+.faq {
+    // height: 800px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+    padding-bottom: 300px;
+
+
+
+    .about {
+        .section-header {
+
+            h2 {
+                padding-top: 160px;
+                padding-bottom: 160px;
+                color: #fff;
+            }
+
+        }
+
+        .accordion {
+            .card {
+                font-family: $primary-font-family;
+                font-size: $font-text;
+                color: $font-color;
+
+                .card-header {
+                    background-color: $primary-color;
+
+                    h2 {
+                        .btn {
+                            font-family: $primary-font-family;
+                            font-size: $font-text;
+                            color: $font-color;
+                            text-decoration: none;
+
+                            &:hover {
+                                color: #fff;
+                                
+                               
+                            }
+                            &:focus {
+                                box-shadow: none;
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .faq {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+}

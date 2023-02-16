@@ -1,0 +1,78 @@
+
+
+    .services-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+ 
+
+        .service {
+            position: relative;
+            height: 500px;
+            width: 33%;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .overlay {
+                position: absolute;
+                background-color: rgba(darkblue, 0.6);
+                top: 0;
+                width: 100%;
+                height: 100%;
+                // font-family: $secondary-font;
+                text-align: center;
+                // display: none;
+                display: flex;
+                flex-wrap: wrap;
+                // @include flex-align (center, center);
+                flex-direction: column;
+                opacity: 0;
+                transition: 0.3s;
+
+
+
+                &:hover {
+                    opacity: 1;
+                    cursor: pointer;
+                    
+
+                }
+
+
+
+                img {
+                    width: 60px;
+                    height: auto;
+
+                }
+
+                h3 {
+                    color: #fff;
+                }
+
+                // &:hover {
+                //     display: block;
+
+            }
+        }
+    }
+
+    
+
+@media all and (max-width: 768px) {
+
+    
+        .services-list {
+            .service {
+                height: 280px;
+                width: 100%;
+                margin-bottom: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    }
