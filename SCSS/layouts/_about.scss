@@ -13,7 +13,7 @@
     margin: 0;
     // margin-top: 60px;
     padding-top: 160px;
-    padding-bottom: 160px;
+    padding-bottom: 300px;
     // display: flex;
     // flex-wrap: wrap;
 
@@ -25,6 +25,11 @@
         display: flex;
         flex-direction: column;
         // box-shadow: 0 5px 20px $font-color;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 150px;
+        
+     
 
         img {
             width: 100%;
@@ -32,6 +37,7 @@
             max-width: 600px;
             object-fit: cover;
             margin: 0 auto;
+           
         }
 
         .info-box-team-caption {
@@ -40,12 +46,13 @@
             left: 0;
             padding-top: 20px;
             margin: auto;
-            width: 75%;
+            width: 500px;
             bottom: -50px;
             text-align: center;
             transition: all .3s;
             background-color: #fff;
             // box-shadow: 0 5px 20px $font-color;
+            font-size: $font-text;
 
 
             &:hover {
@@ -56,6 +63,11 @@
 
                 &:hover .team-social-icons {
                     height: 45px;
+                }
+            }
+            h3 {
+                span {
+                    font-size: 20px;
                 }
             }
         }
@@ -102,52 +114,14 @@
             // padding-top: 50px;
             // text-shadow: 0 5px 20px $font-color;
             line-height: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
         }
     }
-
-
-
 }
-
-
-@media all and (max-width: 768px) {
-
+@media all and (max-width: 1500px) {
     .expirience {
-        padding-top: 80px;
-        padding-bottom: 80px;
-        .pop {
-            // width: 40%;
-
-
-            .info-box-team-caption {
-
-
-                h3 {
-                    font-size: medium;
-                }
-
-                p {
-                    font-size: smaller;
-                }
-            }
-
-        }
-
-        .text {
-            // width: 100%;
-            padding-top: 110px;
-         
-
-            h2 {
-                font-size: $headers-md;
-            }
-
-            p {
-                font-size: $font-tekst-md;
-
-            }
-
-        }
+        padding-bottom: 160px;
     }
 }
 
@@ -158,18 +132,91 @@
             font-size: $headers-md;
             padding-top: 80px;
         }
+    }
 
+
+    .expirience {
+        padding-top: 80px;
+       
+
+        .pop {
+
+            .info-box-team-caption {
+                width: 350px;
+                h3 {
+                font-size: $font-tekst-md;
+
+                span {
+                    font-size: 15px;
+                }
+                }
+                p {
+                    font-size: $font-tekst-md;
+                }
+                
+            }
+        }
+
+        // .pop {
+        //     img {
+        //         float: left;
+        //     }
+
+        // }
+        .text {
+            
+            p {
+                font-size: $font-tekst-md;
+
+            }
+
+        }
+    }
+
+    @media all and (max-width: 1000px) {
+        .expirience {
+        .pop {
+            float: none;
+            .info-box-team-caption {
+                font-size: $font-tekst-md;
+        }
+
+    }
+}
+
+
+    @media all and (max-width: 768px) {
 
         .expirience {
-            // .pop {
-            //     img {
-            //         float: left;
-            //     }
-               
-            // }
+            padding-top: 80px;
+            padding-bottom: 80px;
+
+            .pop {
+                margin-bottom: 50px;
+
+
+                .info-box-team-caption {
+                    
+
+                    h3 {
+                        font-size: medium;
+                    }
+
+                    p {
+                        font-size: smaller;
+                    }
+                }
+
+            }
+
             .text {
+                // width: 100%;
+                padding-top: 110px;
 
 
+                h2 {
+                    font-size: $headers-md;
+                }
 
                 p {
                     font-size: $font-tekst-md;
@@ -179,16 +226,5 @@
             }
         }
     }
-
-    element.style {
-        visibility: hidden;
-        z-index: -100;
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        overflow: hidden;
-        transform: translate3d(0px, 0px, 0px);
-        height: 800px;
-        width: 329px;
     }
 }

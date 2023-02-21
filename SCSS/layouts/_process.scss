@@ -39,7 +39,7 @@
     .text {
         width: 50%;
         margin: auto;
-        text-align: center;
+        // text-align: center;
         
        
 
@@ -47,6 +47,7 @@
             font-family: fantasy;
             color: $font-color;
             font-size: $headers-md;
+            text-align: center;
            
         }
 
@@ -55,7 +56,7 @@
             font-size: $font-text;
             color: $font-color;
             padding-top: 50px;
-            line-height: 30px;
+            line-height: 40px;
            
         }
     }

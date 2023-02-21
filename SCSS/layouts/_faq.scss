@@ -1,5 +1,4 @@
 .faq {
-    // height: 800px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,24 +22,25 @@
         .accordion {
             .card {
                 font-family: $primary-font-family;
-                font-size: $font-text;
                 color: $font-color;
 
                 .card-header {
                     background-color: $primary-color;
 
                     h2 {
+                        font-size: $font-text;
+
                         .btn {
                             font-family: $primary-font-family;
-                            font-size: $font-text;
                             color: $font-color;
                             text-decoration: none;
 
                             &:hover {
                                 color: #fff;
-                                
-                               
+
+
                             }
+
                             &:focus {
                                 box-shadow: none;
                             }
@@ -54,6 +54,37 @@
     }
 }
 
+@media all and (min-width: 1200px) {
+    .accordion {
+        font-size: $font-text;
+
+        .card {
+            .card-header {
+                h2 {
+                    .btn {
+                        font-size: $font-text;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .accordion {
+        font-size: $font-tekst-md;
+
+        .card {
+            .card-header {
+                h2 {
+                    .btn {
+                        font-size: $font-tekst-md;
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media all and (max-width: 768px) {
     .faq {

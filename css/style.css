@@ -130,13 +130,16 @@ body {
 .expirience {
   margin: 0;
   padding-top: 160px;
-  padding-bottom: 160px;
+  padding-bottom: 300px;
 }
 .expirience .pop {
   height: 90%;
   position: relative;
   display: flex;
   flex-direction: column;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 150px;
 }
 .expirience .pop img {
   width: 100%;
@@ -151,11 +154,12 @@ body {
   left: 0;
   padding-top: 20px;
   margin: auto;
-  width: 75%;
+  width: 500px;
   bottom: -50px;
   text-align: center;
   transition: all 0.3s;
   background-color: #fff;
+  font-size: 25px;
 }
 .expirience .pop .info-box-team-caption:hover {
   box-shadow: 0 5px 20px #212529;
@@ -165,6 +169,9 @@ body {
 }
 .expirience .pop .info-box-team-caption:hover:hover .team-social-icons {
   height: 45px;
+}
+.expirience .pop .info-box-team-caption h3 span {
+  font-size: 20px;
 }
 .expirience .pop .team-social-icons {
   transform: all 0.3s;
@@ -195,12 +202,54 @@ body {
   font-size: 25px;
   color: #212529;
   line-height: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1500px) {
+  .expirience {
+    padding-bottom: 160px;
+  }
+}
+@media all and (max-width: 1200px) {
+  .section-header h2 {
+    font-size: 40px;
+    padding-top: 80px;
+  }
+  .expirience {
+    padding-top: 80px;
+  }
+  .expirience .pop .info-box-team-caption {
+    width: 350px;
+  }
+  .expirience .pop .info-box-team-caption h3 {
+    font-size: 20px;
+  }
+  .expirience .pop .info-box-team-caption h3 span {
+    font-size: 15px;
+  }
+  .expirience .pop .info-box-team-caption p {
+    font-size: 20px;
+  }
+  .expirience .text p {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 1200px) and (max-width: 1000px) {
+  .expirience .pop {
+    float: none;
+  }
+  .expirience .pop .info-box-team-caption {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 1200px) and (max-width: 1000px) and (max-width: 768px) {
   .expirience {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+  .expirience .pop {
+    margin-bottom: 50px;
   }
   .expirience .pop .info-box-team-caption h3 {
     font-size: medium;
@@ -216,26 +265,6 @@ body {
   }
   .expirience .text p {
     font-size: 20px;
-  }
-}
-@media all and (max-width: 1200px) {
-  .section-header h2 {
-    font-size: 40px;
-    padding-top: 80px;
-  }
-  .section-header .expirience .text p {
-    font-size: 20px;
-  }
-  element.style {
-    visibility: hidden;
-    z-index: -100;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-    transform: translate3d(0px, 0px, 0px);
-    height: 800px;
-    width: 329px;
   }
 }
 .contact {
@@ -385,8 +414,9 @@ textarea {
 }
 .services-list .service .overlay {
   position: absolute;
-  background-color: rgba(0, 0, 139, 0.6);
+  background-color: rgba(0, 0, 139, 0.4);
   top: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -413,8 +443,9 @@ textarea {
     height: 280px;
     width: 100%;
     margin-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+  }
+  .services-list .service .overlay {
+    opacity: 1;
   }
 }
 .offer {
@@ -841,19 +872,19 @@ template {
 .process .text {
   width: 50%;
   margin: auto;
-  text-align: center;
 }
 .process .text h2 {
   font-family: fantasy;
   color: #212529;
   font-size: 40px;
+  text-align: center;
 }
 .process .text p {
   font-family: "Poppins", "sans-serif";
   font-size: 25px;
   color: #212529;
   padding-top: 50px;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 .process-next {
@@ -964,7 +995,7 @@ template {
   color: #fff;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1320px) {
   .footer {
     font-size: 20px;
     padding-top: 160px;
@@ -1065,15 +1096,16 @@ template {
 }
 .faq .about .accordion .card {
   font-family: "Poppins", "sans-serif";
-  font-size: 25px;
   color: #212529;
 }
 .faq .about .accordion .card .card-header {
   background-color: #f7b526;
 }
+.faq .about .accordion .card .card-header h2 {
+  font-size: 25px;
+}
 .faq .about .accordion .card .card-header h2 .btn {
   font-family: "Poppins", "sans-serif";
-  font-size: 25px;
   color: #212529;
   text-decoration: none;
 }
@@ -1084,10 +1116,85 @@ template {
   box-shadow: none;
 }
 
+@media all and (min-width: 1200px) {
+  .accordion {
+    font-size: 25px;
+  }
+  .accordion .card .card-header h2 .btn {
+    font-size: 25px;
+  }
+}
+@media all and (max-width: 1200px) {
+  .accordion {
+    font-size: 20px;
+  }
+  .accordion .card .card-header h2 .btn {
+    font-size: 20px;
+  }
+}
 @media all and (max-width: 768px) {
   .faq {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
+  }
+}
+.main-photo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.web {
+  padding-bottom: 160px;
+}
+.web p {
+  padding-bottom: 0;
+  text-align: justify;
+}
+
+.web-container {
+  padding-bottom: 80px;
+  font-family: "Poppins", "sans-serif";
+}
+.web-container .web-offer {
+  padding-bottom: 80px;
+}
+.web-container .web-offer .web-text {
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+}
+.web-container .web-offer .web-text h2 {
+  font-family: fantasy;
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+.web-container .web-offer .web-text ul {
+  list-style: circle;
+}
+.web-container .web-offer .web-photo img {
+  width: 600px;
+  float: right;
+  padding: 30px;
+  object-fit: cover;
+}
+.web-container .web-offer .l {
+  float: left;
+}
+
+@media all and (max-width: 1200px) {
+  .web {
+    padding-bottom: 80px;
+  }
+  .web-container .web-offer .web-text {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 1000px) {
+  .web-container .web-offer .web-photo img {
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    padding-bottom: 50px;
   }
 }/*# sourceMappingURL=style.css.map */

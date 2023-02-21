@@ -1,0 +1,92 @@
+.main-photo {
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.web {
+    padding-bottom: 160px;
+
+    p {
+        padding-bottom: 0;
+        text-align: justify;
+    }
+}
+
+.web-container {
+    padding-bottom: 80px;
+
+    font-family: $primary-font-family;
+
+    .web-offer {
+        padding-bottom: 80px;
+
+        .web-text {
+            font-size: $font-text;
+            line-height: 30px;
+            text-align: justify;
+
+            h2 {
+                font-family: fantasy;
+                font-size: 35px;
+                padding-bottom: 40px;
+            }
+            ul {
+                list-style:circle;
+            }
+        }
+
+        .web-photo {
+
+            img {
+                width: 600px;
+                float: right;
+                padding: 30px;
+                object-fit: cover;
+            }
+
+        }
+
+        .l {
+            float: left;
+        }
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .web {
+        padding-bottom: 80px;
+    }
+
+    .web-container {
+
+        .web-offer {
+            .web-text {
+                font-size: $font-tekst-md;
+
+            }
+
+        }
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .web-container {
+
+        .web-offer {
+
+            .web-photo {
+
+                img {
+                    width: 100%;
+                    height: 300px;
+                    padding: 0;
+                    padding-bottom: 50px;
+
+                }
+
+            }
+        }
+    }
+}
