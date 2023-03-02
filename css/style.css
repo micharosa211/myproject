@@ -400,12 +400,12 @@ textarea {
 .services-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .services-list .service {
   position: relative;
   height: 500px;
-  width: 33%;
+  width: 24.5%;
 }
 .services-list .service img {
   height: 100%;
@@ -414,12 +414,13 @@ textarea {
 }
 .services-list .service .overlay {
   position: absolute;
-  background-color: rgba(0, 0, 139, 0.4);
+  background-color: rgba(0, 0, 139, 0.6);
   top: 0;
   right: 0;
   width: 100%;
   height: 100%;
   text-align: center;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -438,11 +439,17 @@ textarea {
   color: #fff;
 }
 
+@media all and (max-width: 1200px) {
+  .services-list .service {
+    height: 390px;
+    width: 49.5%;
+    margin-bottom: 5px;
+  }
+}
 @media all and (max-width: 768px) {
   .services-list .service {
     height: 280px;
     width: 100%;
-    margin-bottom: 5px;
   }
   .services-list .service .overlay {
     opacity: 1;
@@ -455,7 +462,7 @@ textarea {
 }
 .offer h2 {
   font-family: fantasy;
-  padding-top: 160px;
+  padding-top: 100px;
   color: #212529;
   font-size: 50px;
   margin: 0;
@@ -467,6 +474,9 @@ textarea {
   padding: 50px 0 160px 0;
   line-height: 30px;
 }
+.offer .offer-title {
+  padding-top: 160px;
+}
 
 @media all and (max-width: 1200px) {
   .offer h2 {
@@ -476,6 +486,9 @@ textarea {
   .offer p {
     font-size: 20px;
     padding-bottom: 80px;
+  }
+  .offer .offer-title {
+    padding-top: 80px;
   }
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1139,9 +1152,18 @@ template {
     width: 100%;
   }
 }
+.webstores header {
+  padding-bottom: 60px;
+}
+.webstores .hosting-information {
+  font-size: 35px;
+  padding-top: 30px;
+}
+
 .main-photo img {
   width: 100%;
   object-fit: cover;
+  max-height: 800px;
 }
 
 .web {
@@ -1172,13 +1194,24 @@ template {
 .web-container .web-offer .web-text ul {
   list-style: circle;
 }
+.web-container .web-offer .web-text .icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 100px;
+  margin: 20px;
+  color: #fff;
+  text-shadow: 0 5px 20px #212529;
+  margin-left: 30px;
+  margin-top: 50px;
+}
 .web-container .web-offer .web-photo img {
   width: 600px;
   float: right;
   padding: 30px;
   object-fit: cover;
 }
-.web-container .web-offer .l {
+.web-container .web-offer .l img {
   float: left;
 }
 
@@ -1196,5 +1229,13 @@ template {
     height: 300px;
     padding: 0;
     padding-bottom: 50px;
+  }
+  .web-container .web-offer .web-text .icons {
+    margin-top: 60px;
+  }
+}
+@media all and (max-width: 700px) {
+  .web-container .web-offer .web-text .icons {
+    font-size: 70px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -11,7 +11,7 @@
 
     h2 {
         font-family: fantasy;
-        padding-top: 160px;
+        padding-top: 100px;
         color: $font-color;
         font-size: $headers;
         // text-shadow: 0 5px 20px $font-color;
@@ -28,6 +28,9 @@
         // text-shadow: 0 5px 20px $font-color;
         line-height: 30px;
     }
+    .offer-title {
+        padding-top: 160px;
+      }
 }
 
 
@@ -44,6 +47,8 @@
             padding-bottom: 80px;
 
         }
-
+        .offer-title {
+            padding-top: 80px;
+          }
     }
 }

@@ -1,13 +1,20 @@
 .services-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-around;
+ 
+   
 
 
     .service {
         position: relative;
         height: 500px;
-        width: 33%;
+        width: 24.5%;
+   
+     
+
+    
+       
      
 
         img {
@@ -18,13 +25,14 @@
 
         .overlay {
             position: absolute;
-            background-color: rgba(darkblue, 0.4);
+            background-color: rgba(darkblue, 0.6);
             top: 0;
             right: 0;
             width: 100%;
             height: 100%;
             // font-family: $secondary-font;
             text-align: center;
+            justify-content: center;
             // display: none;
             display: flex;
             flex-wrap: wrap;
@@ -60,7 +68,22 @@
         }
     }
 }
+@media all and (max-width: 1200px) {
 
+
+    .services-list {
+        .service {
+            height: 390px;
+            width: 49.5%;
+            margin-bottom: 5px;
+          
+
+       
+
+        }
+    }
+
+}
 
 
 @media all and (max-width: 768px) {
@@ -70,7 +93,7 @@
         .service {
             height: 280px;
             width: 100%;
-            margin-bottom: 5px;
+            // margin-bottom: 5px;
           
 
             .overlay {

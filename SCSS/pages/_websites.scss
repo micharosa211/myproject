@@ -1,8 +1,22 @@
+
+.webstores {
+    header {
+        padding-bottom: 60px;
+    }
+    .hosting-information {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+ 
+}
+
 .main-photo {
     img {
         width: 100%;
         object-fit: cover;
+        max-height: 800px;
     }
+ 
 }
 
 .web {
@@ -11,6 +25,7 @@
     p {
         padding-bottom: 0;
         text-align: justify;
+     
     }
 }
 
@@ -35,6 +50,18 @@
             ul {
                 list-style:circle;
             }
+            .icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+                    font-size: 100px;
+                    margin: 20px;
+                    color: #fff;
+                    text-shadow: 0 5px 20px $font-color;
+                    margin-left: 30px;
+                    margin-top: 50px;
+                }
+            
         }
 
         .web-photo {
@@ -49,7 +76,11 @@
         }
 
         .l {
-            float: left;
+            img {
+              
+                float: left;
+               
+            }
         }
     }
 }
@@ -87,6 +118,32 @@
                 }
 
             }
+            .web-text {
+                .icons {
+                    margin-top: 60px;
+                }
+
+            }
+      
+            }
         }
     }
-}
+
+    @media all and (max-width: 700px) {
+       
+    .web-container {
+    
+            .web-offer {
+                .web-text {
+                    .icons {
+                        font-size: 70px;
+                    }
+    
+                }
+    
+            }
+        }
+    }
+
+    
+    
