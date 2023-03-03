@@ -28,8 +28,8 @@
         float: left;
         margin-right: 30px;
         margin-bottom: 150px;
-        
-     
+
+
 
         img {
             width: 100%;
@@ -37,7 +37,7 @@
             max-width: 600px;
             object-fit: cover;
             margin: 0 auto;
-           
+
         }
 
         .info-box-team-caption {
@@ -65,6 +65,7 @@
                     height: 45px;
                 }
             }
+
             h3 {
                 span {
                     font-size: 20px;
@@ -116,9 +117,11 @@
             line-height: 30px;
             padding-left: 30px;
             padding-right: 30px;
+            text-align: justify;
         }
     }
 }
+
 @media all and (max-width: 1500px) {
     .expirience {
         padding-bottom: 160px;
@@ -137,37 +140,35 @@
 
     .expirience {
         padding-top: 80px;
-       
+        padding-bottom: 80px;
+
 
         .pop {
 
             .info-box-team-caption {
                 width: 350px;
-                h3 {
-                font-size: $font-tekst-md;
 
-                span {
-                    font-size: 15px;
+                h3 {
+                    font-size: $font-tekst-md;
+
+                    span {
+                        font-size: 15px;
+                    }
                 }
-                }
+
                 p {
                     font-size: $font-tekst-md;
                 }
-                
+
             }
         }
 
-        // .pop {
-        //     img {
-        //         float: left;
-        //     }
-
-        // }
+     
         .text {
-            
+
             p {
                 font-size: $font-tekst-md;
-
+                text-align: justify;
             }
 
         }
@@ -175,56 +176,57 @@
 
     @media all and (max-width: 1000px) {
         .expirience {
-        .pop {
-            float: none;
-            .info-box-team-caption {
-                font-size: $font-tekst-md;
-        }
-
-    }
-}
-
-
-    @media all and (max-width: 768px) {
-
-        .expirience {
-            padding-top: 80px;
-            padding-bottom: 80px;
-
             .pop {
-                margin-bottom: 50px;
-
+                float: none;
 
                 .info-box-team-caption {
-                    
+                    font-size: $font-tekst-md;
+                }
 
-                    h3 {
-                        font-size: medium;
+            }
+        }
+
+
+        @media all and (max-width: 768px) {
+
+            .expirience {
+                padding-top: 80px;
+                padding-bottom: 80px;
+
+                .pop {
+                    margin-bottom: 50px;
+
+
+                    .info-box-team-caption {
+
+
+                        h3 {
+                            font-size: medium;
+                        }
+
+                        p {
+                            font-size: smaller;
+                        }
+                    }
+
+                }
+
+                .text {
+                    // width: 100%;
+                    padding-top: 110px;
+
+
+                    h2 {
+                        font-size: $headers-md;
                     }
 
                     p {
-                        font-size: smaller;
+                        font-size: $font-tekst-md;
+
                     }
-                }
-
-            }
-
-            .text {
-                // width: 100%;
-                padding-top: 110px;
-
-
-                h2 {
-                    font-size: $headers-md;
-                }
-
-                p {
-                    font-size: $font-tekst-md;
 
                 }
-
             }
         }
-    }
     }
 }

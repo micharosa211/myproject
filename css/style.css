@@ -204,6 +204,7 @@ body {
   line-height: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  text-align: justify;
 }
 
 @media all and (max-width: 1500px) {
@@ -218,6 +219,7 @@ body {
   }
   .expirience {
     padding-top: 80px;
+    padding-bottom: 80px;
   }
   .expirience .pop .info-box-team-caption {
     width: 350px;
@@ -233,6 +235,7 @@ body {
   }
   .expirience .text p {
     font-size: 20px;
+    text-align: justify;
   }
 }
 @media all and (max-width: 1200px) and (max-width: 1000px) {
@@ -401,6 +404,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-top: 160px;
 }
 .services-list .service {
   position: relative;
@@ -440,6 +444,9 @@ textarea {
 }
 
 @media all and (max-width: 1200px) {
+  .services-list {
+    padding-top: 80px;
+  }
   .services-list .service {
     height: 390px;
     width: 49.5%;
@@ -465,14 +472,16 @@ textarea {
   padding-top: 100px;
   color: #212529;
   font-size: 50px;
+  padding-bottom: 160px;
   margin: 0;
 }
 .offer p {
   font-family: "Poppins", "sans-serif";
   font-size: 25px;
   color: #212529;
-  padding: 50px 0 160px 0;
+  display: inline-block;
   line-height: 30px;
+  text-align: justify;
 }
 .offer .offer-title {
   padding-top: 160px;
@@ -482,10 +491,10 @@ textarea {
   .offer h2 {
     font-size: 40px;
     padding-top: 80px;
+    padding-bottom: 80px;
   }
   .offer p {
     font-size: 20px;
-    padding-bottom: 80px;
   }
   .offer .offer-title {
     padding-top: 80px;
@@ -850,7 +859,6 @@ template {
   }
 }
 .process {
-  padding-top: 160px;
   padding-bottom: 160px;
   display: flex;
   flex-wrap: wrap;
@@ -925,9 +933,6 @@ template {
   }
 }
 @media all and (max-width: 1200px) {
-  .process {
-    padding-top: 80px;
-  }
   .process .text h2 {
     font-size: 35px;
   }
@@ -1190,6 +1195,7 @@ template {
   font-family: fantasy;
   font-size: 35px;
   padding-bottom: 40px;
+  text-align: start;
 }
 .web-container .web-offer .web-text ul {
   list-style: circle;
