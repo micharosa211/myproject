@@ -25,6 +25,7 @@ body {
   font-family: "Poppins", "sans-serif";
   font-weight: 700;
   margin-top: 5px;
+  text-align: center;
 }
 .bg-nav .container-fluid .name span {
   font-size: 16px;
@@ -40,12 +41,28 @@ body {
   font-family: "Poppins", "sans-serif";
 }
 
+.dropmenu {
+  list-style: none;
+  margin-right: 25px;
+  font-weight: 700;
+  font-family: "Poppins", "sans-serif";
+  display: none;
+  transition: all 2s;
+}
+.dropmenu.open {
+  display: block;
+}
+
 .navbar-brand img {
   width: 200px;
   padding: 0;
   position: absolute;
   z-index: 999;
   top: 20px;
+}
+
+.menulist {
+  display: inline-block;
 }
 
 @media all and (max-width: 1200px) {
@@ -430,6 +447,7 @@ textarea {
   flex-direction: column;
   opacity: 0;
   transition: 0.3s;
+  padding: 10px;
 }
 .services-list .service .overlay:hover {
   opacity: 1;
@@ -469,7 +487,7 @@ textarea {
 }
 .offer h2 {
   font-family: fantasy;
-  padding-top: 100px;
+  padding-top: 160px;
   color: #212529;
   font-size: 50px;
   padding-bottom: 160px;
@@ -1163,6 +1181,7 @@ template {
 .webstores .hosting-information {
   font-size: 35px;
   padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .main-photo img {
@@ -1171,9 +1190,6 @@ template {
   max-height: 800px;
 }
 
-.web {
-  padding-bottom: 160px;
-}
 .web p {
   padding-bottom: 0;
   text-align: justify;

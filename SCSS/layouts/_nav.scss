@@ -18,6 +18,7 @@
             font-family: $primary-font-family;
             font-weight: 700;
             margin-top: 5px;
+            text-align: center;
 
             span {
                 font-size: 16px;
@@ -37,7 +38,7 @@
     margin-right: 25px;
     font-weight: 700;
     font-family: $primary-font-family;
-
+    
 
 
     // &:hover {
@@ -45,6 +46,27 @@
     //     font-weight: bolder;
     // }
 }
+.dropmenu {
+    list-style: none;
+
+    margin-right: 25px;
+    font-weight: 700;
+    font-family: $primary-font-family;
+  display: none;
+   
+    transition: all 2s;
+   &.open {
+    display: block;
+   }
+    
+    
+}
+
+
+
+
+
+
 
 .navbar-brand {
 
@@ -56,6 +78,9 @@
         top: 20px;
         // box-shadow: 0 5px 20px $font-color;
     }
+}
+.menulist {
+    display: inline-block;
 }
 
 
