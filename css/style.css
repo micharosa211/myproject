@@ -138,7 +138,7 @@ body {
   }
 }
 .section-header h2 {
-  font-family: fantasy;
+  font-family: "Anton", sans-serif;
   color: #212529;
   font-size: 40px;
   padding-top: 80px;
@@ -487,7 +487,7 @@ textarea {
   align-items: center;
 }
 .offer h2 {
-  font-family: fantasy, "sans-serif";
+  font-family: "Anton", sans-serif;
   padding-top: 80px;
   color: #212529;
   font-size: 40px;
@@ -833,7 +833,7 @@ template {
 }
 .technology h2 {
   text-align: center;
-  font-family: fantasy;
+  font-family: "Anton", sans-serif;
   padding-top: 80px;
   padding-bottom: 0px;
   color: #212529;
@@ -901,7 +901,7 @@ template {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-family: fantasy;
+  font-family: "Anton", sans-serif;
   opacity: 0;
 }
 .process .pop .idea-sm h2 {
@@ -914,7 +914,7 @@ template {
   margin: auto;
 }
 .process .text h2 {
-  font-family: fantasy;
+  font-family: "Anton", sans-serif;
   color: #212529;
   font-size: 33px;
   text-align: center;
@@ -1018,7 +1018,7 @@ template {
 }
 .footer .row .contact-social-media h3 {
   font-size: 40px;
-  font-family: fantasy;
+  font-family: "Anton", sans-serif;
   width: 100%;
   text-align: center;
 }
@@ -1210,7 +1210,7 @@ template {
   text-align: justify;
 }
 .web-container .web-offer .web-text h2 {
-  font-family: fantasy;
+  font-family: "Anton", sans-serif;
   font-size: 27px;
   padding-bottom: 40px;
   text-align: start;

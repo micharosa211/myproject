@@ -24,7 +24,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-family: fantasy;
+            font-family: $font-headers;
             opacity: 0;
 
             h2 {
@@ -43,7 +43,7 @@
        
 
         h2 {
-            font-family: fantasy;
+            font-family: $font-headers;
             color: $font-color;
             font-size: $headers-md;
             text-align: center;
