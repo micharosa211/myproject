@@ -12,13 +12,13 @@ body {
 }
 .bg-nav {
   background-color: #f7b526;
-  font-size: 25px;
-  padding: 25px;
+  font-size: 15px;
+  padding: 10px;
   position: relative;
 }
 .bg-nav .container-fluid .name {
   margin-left: 210px;
-  font-size: 33px;
+  font-size: 20px;
   line-height: 23px;
   letter-spacing: 10px;
   color: #fff;
@@ -39,6 +39,7 @@ body {
   margin-right: 25px;
   font-weight: 700;
   font-family: "Poppins", "sans-serif";
+  font-size: 20px;
 }
 
 .dropmenu {
@@ -54,7 +55,7 @@ body {
 }
 
 .navbar-brand img {
-  width: 200px;
+  width: 150px;
   padding: 0;
   position: absolute;
   z-index: 999;
@@ -68,7 +69,7 @@ body {
 @media all and (max-width: 1200px) {
   .bg-nav .container-fluid .name {
     margin-left: 160px;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 19px;
     letter-spacing: 8px;
     color: #fff;
@@ -84,7 +85,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 17px;
   }
   .navbar-brand img {
     width: 150px;
@@ -93,7 +94,7 @@ body {
 @media all and (max-width: 990px) {
   .bg-nav .container-fluid .name {
     margin: auto;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 19px;
     letter-spacing: 8px;
     color: #fff;
@@ -109,16 +110,16 @@ body {
     padding-top: 80px;
   }
   .navbar-brand img {
-    width: 100px;
+    width: 110px;
   }
 }
 @media all and (max-width: 520px) {
   .navbar-brand img {
-    width: 70px;
+    width: 80px;
     margin-right: 5px;
   }
   .bg-nav .container-fluid .name {
-    font-size: 21px;
+    font-size: 17px;
     margin-left: 80px;
   }
   .bg-nav .container-fluid .name span {
@@ -139,15 +140,15 @@ body {
 .section-header h2 {
   font-family: fantasy;
   color: #212529;
-  font-size: 50px;
-  padding-top: 160px;
+  font-size: 40px;
+  padding-top: 80px;
   text-align: center;
 }
 
 .expirience {
   margin: 0;
-  padding-top: 160px;
-  padding-bottom: 300px;
+  padding-top: 80px;
+  padding-bottom: 200px;
 }
 .expirience .pop {
   height: 90%;
@@ -156,7 +157,7 @@ body {
   flex-direction: column;
   float: left;
   margin-right: 30px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 .expirience .pop img {
   width: 100%;
@@ -176,7 +177,7 @@ body {
   text-align: center;
   transition: all 0.3s;
   background-color: #fff;
-  font-size: 25px;
+  font-size: 20px;
 }
 .expirience .pop .info-box-team-caption:hover {
   box-shadow: 0 5px 20px #212529;
@@ -188,7 +189,7 @@ body {
   height: 45px;
 }
 .expirience .pop .info-box-team-caption h3 span {
-  font-size: 20px;
+  font-size: 16px;
 }
 .expirience .pop .team-social-icons {
   transform: all 0.3s;
@@ -216,7 +217,7 @@ body {
 }
 .expirience .text p {
   font-family: "Poppins", "sans-serif";
-  font-size: 25px;
+  font-size: 20px;
   color: #212529;
   line-height: 30px;
   padding-left: 30px;
@@ -231,7 +232,7 @@ body {
 }
 @media all and (max-width: 1200px) {
   .section-header h2 {
-    font-size: 40px;
+    font-size: 33px;
     padding-top: 80px;
   }
   .expirience {
@@ -242,16 +243,16 @@ body {
     width: 350px;
   }
   .expirience .pop .info-box-team-caption h3 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .expirience .pop .info-box-team-caption h3 span {
     font-size: 15px;
   }
   .expirience .pop .info-box-team-caption p {
-    font-size: 20px;
+    font-size: 17px;
   }
   .expirience .text p {
-    font-size: 20px;
+    font-size: 17px;
     text-align: justify;
   }
 }
@@ -260,7 +261,7 @@ body {
     float: none;
   }
   .expirience .pop .info-box-team-caption {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 @media all and (max-width: 1200px) and (max-width: 1000px) and (max-width: 768px) {
@@ -281,10 +282,10 @@ body {
     padding-top: 110px;
   }
   .expirience .text h2 {
-    font-size: 40px;
+    font-size: 33px;
   }
   .expirience .text p {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 .contact {
@@ -303,7 +304,7 @@ body {
 .contact .contact-form {
   width: 60%;
   background-color: #f7b526;
-  padding: 140px 40px;
+  padding: 100px 40px;
 }
 .contact .contact-form .contact-form-info {
   font-size: 20px;
@@ -385,8 +386,8 @@ textarea {
 
 @media all and (max-width: 1200px) {
   .contact .contact-form {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
 }
 @media all and (max-width: 768px) {
@@ -421,7 +422,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 160px;
+  padding-top: 80px;
 }
 .services-list .service {
   position: relative;
@@ -486,33 +487,33 @@ textarea {
   align-items: center;
 }
 .offer h2 {
-  font-family: fantasy;
-  padding-top: 160px;
+  font-family: fantasy, "sans-serif";
+  padding-top: 80px;
   color: #212529;
-  font-size: 50px;
-  padding-bottom: 160px;
+  font-size: 40px;
+  padding-bottom: 80px;
   margin: 0;
 }
 .offer p {
   font-family: "Poppins", "sans-serif";
-  font-size: 25px;
+  font-size: 20px;
   color: #212529;
   display: inline-block;
   line-height: 30px;
   text-align: justify;
 }
 .offer .offer-title {
-  padding-top: 160px;
+  padding-top: 80px;
 }
 
 @media all and (max-width: 1200px) {
   .offer h2 {
-    font-size: 40px;
+    font-size: 33px;
     padding-top: 80px;
     padding-bottom: 80px;
   }
   .offer p {
-    font-size: 20px;
+    font-size: 17px;
   }
   .offer .offer-title {
     padding-top: 80px;
@@ -833,17 +834,17 @@ template {
 .technology h2 {
   text-align: center;
   font-family: fantasy;
-  padding-top: 160px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 0px;
   color: #212529;
-  font-size: 50px;
+  font-size: 40px;
 }
 .technology .technology-icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-top: 80px;
-  padding-bottom: 180px;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 .technology .technology-icons a {
   font-size: 80px;
@@ -856,7 +857,7 @@ template {
 
 @media all and (max-width: 1200px) {
   .technology h2 {
-    font-size: 40px;
+    font-size: 33px;
     padding-top: 80px;
   }
   .technology .technology-icons {
@@ -865,7 +866,7 @@ template {
 }
 @media all and (max-width: 768px) {
   .technology h2 {
-    font-size: 40px;
+    font-size: 33px;
     padding-bottom: 0;
   }
   .technology .technology-icons {
@@ -877,7 +878,7 @@ template {
   }
 }
 .process {
-  padding-bottom: 160px;
+  padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -906,7 +907,7 @@ template {
 .process .pop .idea-sm h2 {
   color: #fff;
   text-shadow: 0 5px 20px #212529;
-  font-size: 40px;
+  font-size: 33px;
 }
 .process .text {
   width: 50%;
@@ -915,12 +916,12 @@ template {
 .process .text h2 {
   font-family: fantasy;
   color: #212529;
-  font-size: 40px;
+  font-size: 33px;
   text-align: center;
 }
 .process .text p {
   font-family: "Poppins", "sans-serif";
-  font-size: 25px;
+  font-size: 20px;
   color: #212529;
   padding-top: 50px;
   line-height: 40px;
@@ -952,10 +953,10 @@ template {
 }
 @media all and (max-width: 1200px) {
   .process .text h2 {
-    font-size: 35px;
+    font-size: 27px;
   }
   .process .text p {
-    font-size: 20px;
+    font-size: 17px;
   }
   .process-next {
     padding-top: 0;
@@ -966,7 +967,7 @@ template {
   padding: 25px;
   font-family: "Poppins", "sans-serif";
   color: #212529;
-  font-size: 25px;
+  font-size: 20px;
   padding-top: 180px;
   padding-bottom: 180px;
 }
@@ -1016,7 +1017,7 @@ template {
   width: 38%;
 }
 .footer .row .contact-social-media h3 {
-  font-size: 50px;
+  font-size: 40px;
   font-family: fantasy;
   width: 100%;
   text-align: center;
@@ -1033,9 +1034,9 @@ template {
 
 @media all and (max-width: 1320px) {
   .footer {
-    font-size: 20px;
-    padding-top: 160px;
-    padding-bottom: 160px;
+    font-size: 17px;
+    padding-top: 140px;
+    padding-bottom: 140px;
   }
   .footer .row {
     justify-content: space-evenly;
@@ -1054,13 +1055,13 @@ template {
     width: 42%;
   }
   .footer .row .contact-social-media h3 {
-    font-size: 40px;
+    font-size: 33px;
   }
 }
 @media all and (max-width: 996px) {
   .footer {
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 110px;
+    padding-bottom: 110px;
   }
   .footer .row .contact-data {
     width: 60%;
@@ -1110,8 +1111,8 @@ template {
   }
   .footer .row .contact-social-media {
     width: 100%;
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 80px;
+    margin-bottom: 80px;
   }
   .footer .row .contact-social-media a {
     font-size: 40px;
@@ -1123,11 +1124,11 @@ template {
   background-size: cover;
   background-position: center;
   margin-top: 40px;
-  padding-bottom: 300px;
+  padding-bottom: 250px;
 }
 .faq .about .section-header h2 {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   color: #fff;
 }
 .faq .about .accordion .card {
@@ -1138,7 +1139,7 @@ template {
   background-color: #f7b526;
 }
 .faq .about .accordion .card .card-header h2 {
-  font-size: 25px;
+  font-size: 20px;
 }
 .faq .about .accordion .card .card-header h2 .btn {
   font-family: "Poppins", "sans-serif";
@@ -1154,18 +1155,18 @@ template {
 
 @media all and (min-width: 1200px) {
   .accordion {
-    font-size: 25px;
+    font-size: 20px;
   }
   .accordion .card .card-header h2 .btn {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 @media all and (max-width: 1200px) {
   .accordion {
-    font-size: 20px;
+    font-size: 17px;
   }
   .accordion .card .card-header h2 .btn {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 @media all and (max-width: 768px) {
@@ -1173,13 +1174,14 @@ template {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
+    padding-bottom: 170px;
   }
 }
 .webstores header {
   padding-bottom: 60px;
 }
 .webstores .hosting-information {
-  font-size: 35px;
+  font-size: 27px;
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -1187,7 +1189,7 @@ template {
 .main-photo img {
   width: 100%;
   object-fit: cover;
-  max-height: 800px;
+  max-height: 600px;
 }
 
 .web p {
@@ -1196,20 +1198,20 @@ template {
 }
 
 .web-container {
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   font-family: "Poppins", "sans-serif";
 }
 .web-container .web-offer {
   padding-bottom: 80px;
 }
 .web-container .web-offer .web-text {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 30px;
   text-align: justify;
 }
 .web-container .web-offer .web-text h2 {
   font-family: fantasy;
-  font-size: 35px;
+  font-size: 27px;
   padding-bottom: 40px;
   text-align: start;
 }
@@ -1239,10 +1241,10 @@ template {
 
 @media all and (max-width: 1200px) {
   .web {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
   }
   .web-container .web-offer .web-text {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 @media all and (max-width: 1000px) {

@@ -4,11 +4,12 @@
     align-items: center;
 
     h2 {
-        font-family: fantasy;
-        padding-top: 160px;
+        font-family: fantasy, 'sans-serif';
+     
+        padding-top: 80px;
         color: $font-color;
         font-size: $headers;
-        padding-bottom: 160px;
+        padding-bottom: 80px;
         // text-shadow: 0 5px 20px $font-color;
         margin: 0;
     }
@@ -26,7 +27,7 @@
     }
 
     .offer-title {
-        padding-top: 160px;
+        padding-top: 80px;
     }
 }
 

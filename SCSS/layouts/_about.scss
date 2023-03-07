@@ -4,7 +4,7 @@
         font-family: fantasy;
         color: $font-color;
         font-size: $headers;
-        padding-top: 160px;
+        padding-top: 80px;
         text-align: center;
     }
 }
@@ -12,8 +12,8 @@
 .expirience {
     margin: 0;
     // margin-top: 60px;
-    padding-top: 160px;
-    padding-bottom: 300px;
+    padding-top: 80px;
+    padding-bottom: 200px;
     // display: flex;
     // flex-wrap: wrap;
 
@@ -27,7 +27,7 @@
         // box-shadow: 0 5px 20px $font-color;
         float: left;
         margin-right: 30px;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
 
 
 
@@ -68,7 +68,7 @@
 
             h3 {
                 span {
-                    font-size: 20px;
+                    font-size: 16px;
                 }
             }
         }

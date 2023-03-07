@@ -1,7 +1,7 @@
 .bg-nav {
     background-color: $primary-color;
-    font-size: 25px;
-    padding: 25px;
+    font-size: 15px;
+    padding: 10px;
     // height: 100px;
     position: relative;
 
@@ -9,7 +9,7 @@
 
         .name {
             margin-left: 210px;
-            font-size: 33px;
+            font-size: $font-text;
             line-height: 23px;
             // font-family: 'Rubik 80s Fade', cursive;
             letter-spacing: 10px;
@@ -38,6 +38,7 @@
     margin-right: 25px;
     font-weight: 700;
     font-family: $primary-font-family;
+    font-size: $font-text;
     
 
 
@@ -71,7 +72,7 @@
 .navbar-brand {
 
     img {
-        width: 200px;
+        width: 150px;
         padding: 0;
         position: absolute;
         z-index: 999;
@@ -91,7 +92,7 @@
 
             .name {
                 margin-left: 160px;
-                font-size: 28px;
+                font-size: $font-text;
                 line-height: 19px;
                 letter-spacing: 8px;
                 color: #fff;
@@ -111,7 +112,7 @@
         margin-left: 10px;
         margin-right: 10px;
         font-weight: 700;
-        font-size: 22px;
+        font-size: $font-tekst-md;
     }
     .navbar-brand {
 
@@ -129,7 +130,7 @@
 
             .name {
                 margin: auto;
-                font-size: 28px;
+                font-size: $font-text;
                 line-height: 19px;
                 letter-spacing: 8px;
                 color: #fff;
@@ -151,7 +152,7 @@
     .navbar-brand {
 
         img {
-            width: 100px;
+            width: 110px;
     
         }
     } 
@@ -160,7 +161,7 @@
     .navbar-brand {
 
         img {
-            width: 70px;
+            width: 80px;
             margin-right: 5px;
     
         }
@@ -172,7 +173,7 @@
 
             .name {
             
-                font-size: 21px;
+                font-size: $font-tekst-md;
                 margin-left: 80px;
               
 

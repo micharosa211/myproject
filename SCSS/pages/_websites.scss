@@ -4,7 +4,7 @@
     }
 
     .hosting-information {
-        font-size: 35px;
+        font-size: 27px;
         padding-top: 30px;
         padding-bottom: 50px;
     }
@@ -15,7 +15,7 @@
     img {
         width: 100%;
         object-fit: cover;
-        max-height: 800px;
+        max-height: 600px;
     }
 
 }
@@ -30,7 +30,7 @@
 }
 
 .web-container {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
 
     font-family: $primary-font-family;
 
@@ -44,7 +44,7 @@
 
             h2 {
                 font-family: fantasy;
-                font-size: 35px;
+                font-size: 27px;
                 padding-bottom: 40px;
                 text-align: start;
             }
@@ -90,7 +90,7 @@
 
 @media all and (max-width: 1200px) {
     .web {
-        padding-bottom: 80px;
+        padding-bottom: 0px;
     }
 
     .web-container {
