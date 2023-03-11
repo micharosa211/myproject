@@ -1,6 +1,7 @@
-.webstores {
+.webstores .services{
     header {
         padding-bottom: 60px;
+        
     }
 
     .hosting-information {
@@ -10,6 +11,27 @@
     }
 
 }
+
+ol {
+    text-align: justify;
+}
+
+#closed {
+    height: 800px;
+    background-position: bottom;
+    h2 {
+        text-align: center;
+        color: #fff;
+        padding-top: 150px;
+        font-family: $font-headers;
+    }
+    p {
+        text-align: center;
+        padding-top: 20px;
+        color: #fff;
+    }
+}
+
 
 .main-photo {
     img {
@@ -21,7 +43,7 @@
 }
 
 .web {
-
+padding-bottom: 80px;
     p {
         padding-bottom: 0;
         text-align: justify;
@@ -90,7 +112,7 @@
 
 @media all and (max-width: 1200px) {
     .web {
-        padding-bottom: 0px;
+        padding-bottom: 60px;
     }
 
     .web-container {

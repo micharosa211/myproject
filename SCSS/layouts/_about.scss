@@ -198,7 +198,10 @@
 
 
                     .info-box-team-caption {
-
+                        box-shadow: 0 5px 20px $font-color;
+                        padding-bottom: 20px;
+                        background-color: $primary-color;
+                        color: #fff;
 
                         h3 {
                             font-size: medium;

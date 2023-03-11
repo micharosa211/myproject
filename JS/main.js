@@ -1,5 +1,5 @@
 document.getElementById('contact-form').addEventListener('submit', function (e) {
-    e.preventDefault();
+ 
 
     const appointmentMessage = document.querySelector('.appointment-message');
     let formFields = document.getElementsByClassName('form-field');
@@ -21,6 +21,7 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
         if (formFields[i].value === '') {
             allFields = false;
             formFields[i].classList.add('error');
+            
         } else {
             allFields = true;
             formFields[i].classList.remove('error');
@@ -33,6 +34,7 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     } else {
         appointmentMessage.classList.add('error');
         appointmentMessage.textContent = 'wypełnij wymagane pola';
+         e.preventDefault();
     }
     if (allFields) {
         appointmentMessage.classList.remove('error');

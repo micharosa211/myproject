@@ -42,7 +42,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-nav">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img class="animate__animated animate__backInRight animate__repeat-1" src="IMG/logo.png" alt="LOGO"></a>
+        <img class="animate__animated animate__backInRight animate__delay-1s" src="IMG/logo.png" alt="LOGO"></a>
       <h3 class="name">FABRYKA<br><span>IT</span></h3>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,8 +94,8 @@
     <header class="container offer">
       <h2 class="offer-title">Nasza Oferta</h2>
       <p>Fabryka jest firmą dostarczającą zaawansowane technologie informatyczne dla przedsiębiorstw. Naszym celem jest
-        sprawianie, że prowadzenie biznesu staje się łatwiejsze, marki naszych klientów stają się rozpoznawalne na
-        rynku, a firmy podnoszą swoją rynkową pozycję i zwiększają przychody.</p>
+        dbanie o to, aby prowadzenie biznesu stawało się łatwiejsze, marki naszych klientów rozpoznawalne na
+        rynku, a ich firmy podnosiły swoją rynkową pozycję i zwiększały przychody.</p>
       <p>
         W ofercie Fabryki jest szereg usług informatycznych, począwszy od budowania aplikacji, poprzez tworzenie i
         zarzadzanie stronami i sklepami internetowymi, aż po świadczenie usług serwisowych IT i prowadzenie
@@ -174,7 +174,8 @@
     <!-- <img class="desctop-background" src="img/north-gfca3ef78f_1920 — kopia — kopia.jpg"> -->
 
 
-    <form id="contact-form" class="contact-form">
+    <form id="contact-form" class="contact-form" action="https://formspree.io/f/xknazwaj"
+    method="POST">
       <h2>Zadzwoń już teraz: <span class="badge badge-secondary">731 226 555</span>, lub</h2>
       <h2>wypełnij formularz <span class="badge badge-secondary"> Usługa bezpłatna</span></h2>
       <p class="contact-form-info">Skontaktujemy się z Tobą i prezkażemy wszystkie niezbędne informacje, w tym czas
@@ -189,10 +190,10 @@
       </select>
       <input type="tel" name="phone" placeholder="Telefon" id="contact-phone" class="form-field">
       <label for="contact-date">Wybierz preferowaną datę kontaktu</label>
-      <input type="date" name="date" id="contact-date" class="form-field">
+      <input type="date" name="date" id="contact-date">
       <label for="contact-time">Wybierz preferowaną godzinę kontaktu</label>
-      <input type="time" name="time" id="contact-time" class="form-field">
-      <textarea name="message" id="contact-message" placeholder="Dodatkowe informacje" class="form-field"></textarea>
+      <input type="time" name="time" id="contact-time">
+      <textarea name="message" id="contact-message" placeholder="Dodatkowe informacje"></textarea>
       <button type="submit" class="btn-form">Wyślij</button>
       <p class="appointment-message"></p>
     </form>
@@ -253,7 +254,7 @@
       <div class="process row process-next" data-aos="fade-right" data-aos-delay="100" data-aos-duration="400">
         <div class="text col-12 col-md-6">
           <h2>4. Wdrożenie, szkolenie i serwis.</h2>
-          <p>Gdy projekt jest gotowy, dokunujemy przekazania wersji finalnej. Wtedy również, w przypadku
+          <p>Gdy projekt jest gotowy, dokonujemy przekazania wersji finalnej. Wtedy również, w przypadku
             CMS/sklepu/aplikacji przeprowadzamy niezbędne szkolenie z obsługi. Następnie serwisujemy Twój produkt
             zgodnie z zapotrzebowaniem.</p>
         </div>
@@ -500,7 +501,7 @@
           </div>
           <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
             <div class="card-body">
-              Jeżli klient decyduje powierzyć nam prowadzenie fanpage przez okres min. 6 miesięcy to stworzenie fanpage,
+              Jeżeli klient decyduje powierzyć nam prowadzenie fanpage przez okres min. 6 miesięcy to stworzenie fanpage,
               wraz z projektem graficznym nie wiąże się z żadnym dodatkowym kosztem.<br>
               Koszt prowadzenia fanpage zaczyna się od 199zł miesięcznie. Na cenę mają wpływ takie czynniki jak ikość
               zamieszczanych postów i żródło materiałów. Wszystkie szczegóły uzgadniamy zawsze indywidualnie.
@@ -528,9 +529,9 @@
           <h3>Michał Rosadziński<br><span>Menedżer, Front-End Developer</span></h3>
           <p>Wyślij wiadomość</p>
           <div class="team-social-icons">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100002472035831"><i class="fa-brands fa-facebook"></i></a>
+            <!-- <a href=""><i class="fa-brands fa-instagram"></i></a> -->
+            <a href="https://www.linkedin.com/in/michalrosadzinski/"><i class="fa-brands fa-linkedin"></i></a>
           </div>
         </div>
       </div>
@@ -579,16 +580,15 @@
           <span class="img-holder">
             <img src="IMG/icon-map.png" alt="map">
           </span>
-          <p>FABRYKA OPROGRAMOWANIA<br>mgr Michał Rosadziński<br>ul. Banacha 33 lokal 39 <br>31-235 Kraków</p>
+          <p>FABRYKA IT<br>mgr Michał Rosadziński<br>ul. Banacha 33 lokal 39 <br>31-235 Kraków</p>
         </div>
         <div class="contact-item">
           <span class="img-holder">
             <img src="IMG/icon-mail.png" alt="email">
           </span>
           <p>
-            <a href="mailto:michal.rosadzinski@gmail.com">michal.rosadzinski@gmail.com</a><br>
-            <a href="mailto:example@example.pl">example@example.pl</a>
-          </p>
+            <a href="mailto:fabryka@fabrykait.com.pl">fabryka@fabrykait.com.pl</a>
+           </p>
         </div>
         <div class="contact-item">
           <span class="img-holder">
@@ -604,9 +604,12 @@
       <div class="contact-social-media">
         <h3>Dołącz do nas</h3>
         <a href=""><i class="fa-brands fa-facebook"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <!-- <a href=""><i class="fa-brands fa-instagram"></i></a> -->
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
       </div>
+    </div>
+    <div class="rights">
+      <p>© 2023. FABRYKA IT | <a href="statute/index.html">Polityka prywatności</a></p>
     </div>
   </footer>
 

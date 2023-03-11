@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     font-family: $primary-font-family;
-   
+
 
     .desctop-background {
         background-attachment: fixed;
@@ -11,8 +11,8 @@
         background-size: cover;
         background-position: right;
         width: 40%;
-        
-       
+
+
     }
 
     .contact-form {
@@ -25,31 +25,34 @@
             padding-bottom: 15px;
         }
 
-    
 
-
-
-        .contact-message {
-            width: 100%;
-            display: none;
-
-            &.error {
-                display: block;
-                font-size: 20px;
-                color: red;
-            }
-
-            &.send {
-                display: block;
-                color: $font-color;
-            }
-
-        }
 
     }
 
 
+
+    .appointment-message {
+        width: 100%;
+        display: none;
+
+        &.error {
+            display: block;
+            font-size: 20px;
+            color: red;
+        }
+
+        &.send {
+            display: block;
+            color: $font-color;
+        }
+
+    }
+
 }
+
+
+
+
 input,
 select,
 textarea {
@@ -94,6 +97,7 @@ label {
 textarea {
     height: 100px;
 }
+
 .btn-form {
     @extend %btn;
     font-weight: 700;
@@ -112,11 +116,11 @@ textarea {
 
 
         .contact-form {
-         
+
             padding-top: 90px;
             padding-bottom: 90px;
         }
-    }  
+    }
 }
 
 @media all and (max-width: 768px) {
