@@ -1236,7 +1236,7 @@ ol {
   padding-bottom: 80px;
 }
 .web p {
-  padding-bottom: 0;
+  padding-bottom: 80px;
   text-align: justify;
 }
 
@@ -1246,6 +1246,7 @@ ol {
 }
 .web-container .web-offer {
   padding-bottom: 80px;
+  min-height: 500px;
 }
 .web-container .web-offer .web-text {
   font-size: 17px;
