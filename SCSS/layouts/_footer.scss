@@ -11,6 +11,7 @@
     .row {
         margin-left: 0;
         margin-right: 0;
+        justify-content: space-evenly;
 
         .contact-data {
             padding: 0;
@@ -49,19 +50,25 @@
                     // margin-left: px;
                     a {
                         color: $font-color;
+                        text-decoration: none;
+
+                        &:hover {
+                            color: #fff;
+                        }
                     }
+                   
                 }
 
             }
         }
 
         .logo {
-            text-align: center;
+            // text-align: center;
             padding: 0;
             width: 24%;
 
             img {
-                width: 300px;
+                width: 200px;
             }
         }
 
@@ -157,7 +164,7 @@
                 width: 60%;
                 .logo1 {
                     display: block;
-                    padding-left: 40px;
+                    text-align: center;
                     padding-bottom: 70px;
 
                     img {
@@ -165,7 +172,9 @@
                     }
                
                 }
-
+                .contact-item {
+                    padding-left: 100px;
+                }
             }
 
             .logo {
@@ -212,9 +221,11 @@
                
                 }
                 .contact-item {
+                    padding-left: 0px;
                     .img-holder {
                         width: 100%;
-
+                        
+                        
                     }
                     p {
                         width: 100%;

@@ -185,45 +185,23 @@ body {
   font-size: 17px;
 }
 .expirience .pop .info-box-team-caption:hover {
-  box-shadow: 0 5px 20px #212529;
   padding-bottom: 20px;
   background-color: #f7b526;
   color: #fff;
 }
-.expirience .pop .info-box-team-caption:hover:hover .team-social-icons {
-  height: 45px;
+.expirience .pop .info-box-team-caption:hover:hover .mailto {
+  font-size: 16px;
 }
 .expirience .pop .info-box-team-caption h3 span {
   font-size: 16px;
 }
-.expirience .pop .team-social-icons {
-  transform: all 0.3s;
-  height: 0;
-  overflow: hidden;
-  text-align: center;
-}
-.expirience .pop .team-social-icons a {
-  height: 35px;
-  width: 35px;
-  font-size: 20px;
-  border: 1px solid #212529;
-  color: #212529;
-  line-height: 35px;
-  border-radius: 50%;
-  margin: 0 10px;
-  display: inline-block;
-  text-align: center;
-  margin-top: 10px;
-}
-.expirience .pop .team-social-icons a:hover {
-  border: 1px solid #f7b526;
+.expirience .pop .mailto {
+  font-size: 0px;
   color: #fff;
-  background-color: #f7b526;
+  font-weight: 600;
+  text-decoration: none;
 }
 .expirience .text p {
-  font-family: "Poppins", "sans-serif";
-  font-size: 17px;
-  color: #212529;
   line-height: 30px;
   padding-left: 30px;
   padding-right: 30px;
@@ -278,7 +256,6 @@ body {
     margin-bottom: 50px;
   }
   .expirience .pop .info-box-team-caption {
-    box-shadow: 0 5px 20px #212529;
     padding-bottom: 20px;
     background-color: #f7b526;
     color: #fff;
@@ -865,6 +842,9 @@ template {
   text-align: center;
   margin-top: 10px;
 }
+.technology .technology-icons a:hover {
+  color: #fff;
+}
 
 @media all and (max-width: 1200px) {
   .technology h2 {
@@ -907,6 +887,7 @@ template {
   height: 400px;
   position: absolute;
   top: 0;
+  right: 0;
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -986,6 +967,7 @@ template {
 .footer .row {
   margin-left: 0;
   margin-right: 0;
+  justify-content: space-evenly;
 }
 .footer .row .contact-data {
   padding: 0;
@@ -1012,14 +994,17 @@ template {
 }
 .footer .row .contact-data .contact-item p a {
   color: #212529;
+  text-decoration: none;
+}
+.footer .row .contact-data .contact-item p a:hover {
+  color: #fff;
 }
 .footer .row .logo {
-  text-align: center;
   padding: 0;
   width: 24%;
 }
 .footer .row .logo img {
-  width: 300px;
+  width: 200px;
 }
 .footer .row .contact-social-media {
   display: flex;
@@ -1088,11 +1073,14 @@ template {
   }
   .footer .row .contact-data .logo1 {
     display: block;
-    padding-left: 40px;
+    text-align: center;
     padding-bottom: 70px;
   }
   .footer .row .contact-data .logo1 img {
     width: 150px;
+  }
+  .footer .row .contact-data .contact-item {
+    padding-left: 100px;
   }
   .footer .row .logo {
     display: none;
@@ -1120,6 +1108,9 @@ template {
   }
   .footer .row .contact-data .logo1 img {
     width: 150px;
+  }
+  .footer .row .contact-data .contact-item {
+    padding-left: 0px;
   }
   .footer .row .contact-data .contact-item .img-holder {
     width: 100%;

@@ -33,6 +33,7 @@
 
   <link rel="stylesheet" href="css/style.css">
   <title>FABRYKA</title>
+  <link rel="icon" type="image/png" href="IMG/logo.png">
 </head>
 
 <body>
@@ -91,7 +92,7 @@
 
   <!-- Oferta -->
 
-  <section id="offer" data-aos="fade-right" data-aos-delay="100" data-aos-duration="400">
+  <section data-aos="fade-right" data-aos-delay="100" data-aos-duration="400">
     <header class="container offer">
       <h2 class="offer-title">Nasza Oferta</h2>
       <p>Fabryka jest firmą dostarczającą zaawansowane technologie informatyczne dla przedsiębiorstw. Naszym celem jest
@@ -115,7 +116,7 @@
 
     </header>
 
-    <div class="services-list container-fluid">
+    <div id="offer" class="services-list container-fluid">
       <a href="pages/index.html" class="service">
         <img src="IMG/website.jpg" alt="Service 1">
         <div class="overlay">
@@ -176,7 +177,7 @@
 
 
     <form id="contact-form" class="contact-form" action="https://formspree.io/f/xknazwaj" method="POST">
-      <h2>Zadzwoń już teraz: <span class="badge badge-secondary">731 226 555</span>, lub</h2>
+      <h2>Zadzwoń już teraz:<a class="badge badge-secondary" href="tel:+48721871625">721 871 625</a>, lub</h2>
       <h2>wypełnij formularz <span class="badge badge-secondary"> Usługa bezpłatna</span></h2>
       <p class="contact-form-info">Skontaktujemy się z Tobą i prezkażemy wszystkie niezbędne informacje, w tym czas
         rezalizcji i cenę.</p>
@@ -273,7 +274,7 @@
   <section id="questions" class="container-fluid faq" style="background-image: url(IMG/questions.jpg);">
     <div class="about">
       <header class="section-header">
-        <h2>Najczętsze pytania i odpowiedzi</h2>
+        <h2>Najczęstsze pytania i odpowiedzi</h2>
       </header>
       <div class="accordion container" id="accordionExample">
         <div class="card">
@@ -288,9 +289,10 @@
 
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-              Ceny małych stron internetowych tzw. wizytówek zaczynają się od 1000zł. Każdy projekt jednak wyceniany
+              Ceny małych stron internetowych tzw. wizytówek najczęściej nie przekraczają 1000zł. Każdy projekt jednak
+              wyceniany
               jest indywidualnie ze względu na odmienne oczekiwania i wymagania Klientów. Klient otrzymuje zawsze pełną
-              informację dotyczącą ceny i czasu realizacji przed podjęciem decyzji o skorzystaniu z oferty. Napisz
+              informację dotyczącą ceny i czasu realizacji. Napisz
               lub zadzwoń do nas, a otrzymasz bezpłatną wycenę strony internetowej.
             </div>
           </div>
@@ -307,7 +309,7 @@
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
               Termin realizacji jest uzależniony od rodzaju i zaawansowania projektu, ustalamy go zawsze indywidualnie.
-              Mała strona może być gotowa nawet do 7 dni, ale standardowo jest to 2-3 tygodnie lub więcej.
+              Mała strona może być gotowa nawet do kilku dni, ale standardowo jest to 2 tygodnie lub więcej.
             </div>
           </div>
         </div>
@@ -355,16 +357,17 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                 data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                Czy moja strona może być wykonana w kilku językach?
+                Strona dynamiczna, co to jest?
               </button>
             </h2>
           </div>
           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
             <div class="card-body">
-              Tak, oczywiście, stronę możemy wykonać w kilku wersjach językowych. W przypadku języka angielskiego,
-              tłumaczenia wykonujemy samodzielnie. W przypadku innych języków, otrzymujemy je od Klienta, ponieważ
-              używanie translatora przy tworzeniu stron i sklepów internetowych nie jest wskazane. Pewne treści, pomimo
-              prawidłowego przetłumaczenia mogą różnić się znaczeniem.
+              Jest to rodzaj strony internetowej, której treści mogą się zmieniać w zależności od konfiguracji. Jest
+              wyposażona w system zarządzania treścią CMS (najczęściej WordPress, lub Joomla), dzięki czemu zmiany lub
+              aktualizacje w bazie danych można wprowadzać na bieżąco (nawet przez właściciela czy administratorów z
+              podstawową wiedzą w tym temacie) i automatycznie zmieniają one zawartość strony. Możliwość edycji i
+              samodzielnego zarządzania treścią przez użytkownika należy do największych zalet stron dynamicznych.
             </div>
           </div>
         </div>
@@ -373,18 +376,21 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                 data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                Gdzie możemy się spotkać i porozmawiać o współpracy?
+                Strona statyczna, co to jest?
               </button>
             </h2>
           </div>
           <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
             <div class="card-body">
-              Jeśli zainteresowała Cię nasza oferta, prosimy o kontakt mailowy lub telefoniczny. Z przyjemnością
-              odpowiemy na wszystkie pytania i wątpliwości, a także dokonamy wstępnego kosztorysu. Najczęściej spotykamy
-              w siedzibie firmy klienta, lub innym dogodnym dla klienta miejscu (zapewniamy dojazd do Klienta), umawiamy
-              się na videospotkania (poprzez TEAMS, Discord, lub Google Meet), lub zapraszamy do naszej siedziby
-              Krakowie. Podczas videospotkania udostępniamy klientowi pulpit naszego komputera, dlatego możemy
-              szczegółowo omówić wiele kwestii i wykonać prezentację.
+              Strona statyczna, to strona zakodowana i zaprogramowana przez programistę głównie w technologiach HTML,
+              CSS i JavaScipt. Wiele agencji publikuje na swoich stronach informacje, że strona statyczna to najprostsza
+              i najtańsza opcja, oraz , że strony te nie są multimedialne i responsywne. Nie jest to prawdą. Stronę
+              statyczną można zaprogramować dokładnie tak samo jak dynamiczną i odwrotnie, ale może to wymagać więcej
+              pracy (ponieważ cały kod strony pisany jest samodzielnie i nie ma możliwości korzystania z gotowych
+              szablonów). Strony te są bardzo lekkie i szybkie. Nie wymagają osobnej bazy danych, oraz zajmują bardzo
+              mało miejsca (w porównaniu ze stronami dynamicznymi) na serwerze. Dodatkowo strony te są znacznie mniej
+              podatne na wirusy i inne szkodliwe oprogramowanie. Klient samodzielnie jednak nie wprowadzi zmian w treści
+              strony, ponieważ wymaga to znajomości programowania.
             </div>
           </div>
         </div>
@@ -393,28 +399,18 @@
             <h2 class="mb-0">
               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                 data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                Jak wygląda współpraca przy tworzeniu strony www, lub sklepu?
+                Strona statyczna, czy dynamiczna?
               </button>
             </h2>
           </div>
           <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
             <div class="card-body">
-              1. Określenie oczekiwań Klienta względem strony internetowej, ustalenie grupy docelowej, tematyki, szaty
-              graficznej, kolorystyki, zawartości i funkcjonalności.<br>
-              2. Wycena projektu i podpisanie umowy z Klientem. Pobieramy zaliczkę w wysokości 30% za I etap prac.
-              Wtedy też uzgadniamy z klientem kwestię dostarczenia materiałów. Możemy je zorganizować samodzielnie, lub
-              mogą zostać dostarczone przez klienta.<br>
-              3. Rozpoczęcie prac związanych z projektowaniem strony www. Klient ma cały czas wgląd w postęp prac.<br>
-              4. Przedstawienie projektu graficznego strony.
-              <br>
-              5. Konsultacja koncepcji z Klientem, wprowadzenie ewentualnych poprawek i uzupełnienie zawartość strony
-              internetowej.
-              <br>
-              6. Po zakończeniu prac następuje akceptacja projektu.
-              Wystawienie faktury i rozliczenie końcowe za wykonaną usługę. Uruchomienie strony www, lub sklepu.
-              <br>
-              7. Jeżeli strona jest z panelem CMS, wykonujemy szkolenie. W przypadku sklepów, zawsze wykonujemy
-              szkolenie z jego obsługi.
+              To zależy od zapotrzebowania. Jeżeli klient planuje częste zmiany treści na stronie to lepszym
+              rozwiązaniem będzie strona dynamiczna. Jeżeli nie, to lepszym rozwiązaniem może być strona statyczna.
+              Każda z nich ma swoje plusy i minusy. My wykonujemy strony dynamiczne i statyczne. Wszystkie są
+              responsywne, multimedialne, skalowalne, oraz dobrze wyszukiwane przez przeglądarki. Technologię wykonania
+              strony dobieramy po rozmowie z klientem i poznaniu jego potrzeb. Technologia wykonania strony nie ma u nas
+              wpływu na cenę.
             </div>
           </div>
         </div>
@@ -465,7 +461,7 @@
               Najczęściej dotyczy to zmiany treści na stronie, ale może dotyczyć wszystkiego co ze stroną www jest
               związane. Koszt usługi uzależniony jest od czasu pracy programisty, potrzebnego do jej realizacji. Godzina
               naszych
-              usług kosztuje 100zł. Naszym klientom, którym budowaliśmy stronę www dajemy stały rabat w wysokości 30%.
+              usług kosztuje 100zł. Naszym klientom, którym budowaliśmy stronę www dajemy stały rabat w wysokości 40%.
               Najczęściej, czas zmiany treści na stronie nie przekracza 1 godziny pracy programisty.
             </div>
           </div>
@@ -482,7 +478,7 @@
           <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
             <div class="card-body">
               Godzina naszych usług kosztuje 100zł + ewentualny koszt doojazdu (jeżeli nie ma możliwości naprawy
-              zdalnie). Naszym klientom, którym budowaliśmy stronę www dajemy stały rabat w wysokości 30%. Koszt usługi
+              zdalnie). Naszym klientom, którym budowaliśmy stronę www dajemy stały rabat w wysokości 40%. Koszt usługi
               uzależniony jest od czasu pracy programisty. Przed przystąpieniem do realizacji zlecenia zawsze uzgadniamy
               z klientem szacunkowy koszt usługi, oraz czas realizacji po poznaniu informacji dotyczących awarii. Wtedy
               klient podejmuje decyzję o jej realizacji. W przypadku otrzymania "zielonego światła", przystępujemy
@@ -501,14 +497,84 @@
           </div>
           <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
             <div class="card-body">
-              Jeżeli klient decyduje powierzyć nam prowadzenie fanpage przez okres min. 6 miesięcy to stworzenie
+              Jeżeli klient decyduje powierzyć nam prowadzenie fanpage przez okres min. 6 miesięcy, to stworzenie
               fanpage,
               wraz z projektem graficznym nie wiąże się z żadnym dodatkowym kosztem.<br>
-              Koszt prowadzenia fanpage zaczyna się od 199zł miesięcznie. Na cenę mają wpływ takie czynniki jak ikość
+              Koszt prowadzenia fanpage zaczyna się od 199zł miesięcznie. Na cenę mają wpływ takie czynniki jak ilość
               zamieszczanych postów i żródło materiałów. Wszystkie szczegóły uzgadniamy zawsze indywidualnie.
             </div>
           </div>
         </div>
+        <div class="card">
+          <div class="card-header" id="headingThirteen">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                Czy moja strona może być wykonana w kilku językach?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
+            <div class="card-body">
+              Tak, oczywiście, stronę możemy wykonać w kilku wersjach językowych. W przypadku języka angielskiego,
+              tłumaczenia wykonujemy samodzielnie. W przypadku innych języków, otrzymujemy je od Klienta, ponieważ
+              używanie translatora przy tworzeniu stron i sklepów internetowych nie jest wskazane. Pewne treści, pomimo
+              prawidłowego przetłumaczenia mogą różnić się znaczeniem.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFourteen">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteenn">
+                Gdzie możemy się spotkać i porozmawiać o współpracy?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">
+            <div class="card-body">
+              Jeśli zainteresowała Cię nasza oferta, prosimy o kontakt mailowy lub telefoniczny. Z przyjemnością
+              odpowiemy na wszystkie pytania i wątpliwości, a także dokonamy wstępnego kosztorysu. Najczęściej spotykamy
+              w siedzibie firmy klienta, lub innym dogodnym dla klienta miejscu (zapewniamy dojazd do Klienta), umawiamy
+              się na videospotkania (poprzez TEAMS, Discord, lub Google Meet), lub zapraszamy do naszej siedziby w
+              Krakowie. Podczas videospotkania udostępniamy klientowi pulpit naszego komputera, dlatego możemy
+              szczegółowo omówić wiele kwestii i wykonać prezentację.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFifteen">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                Jak wygląda współpraca przy tworzeniu strony www, lub sklepu?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
+            <div class="card-body">
+              1. Określenie oczekiwań Klienta względem strony internetowej, ustalenie grupy docelowej, tematyki, szaty
+              graficznej, kolorystyki, zawartości i funkcjonalności.<br>
+              2. Wycena projektu i podpisanie umowy z Klientem. Pobieramy zaliczkę w wysokości 30% za I etap prac.
+              Wtedy też uzgadniamy z klientem kwestię dostarczenia materiałów. Możemy je zorganizować samodzielnie, lub
+              mogą zostać dostarczone przez klienta.<br>
+              3. Rozpoczęcie prac związanych z projektowaniem strony www. Klient ma cały czas wgląd w postęp prac.<br>
+              4. Przedstawienie projektu graficznego strony.
+              <br>
+              5. Konsultacja koncepcji z Klientem, wprowadzenie ewentualnych poprawek i uzupełnienie zawartość strony
+              internetowej.
+              <br>
+              6. Po zakończeniu prac następuje akceptacja projektu.
+              Wystawienie faktury i rozliczenie końcowe za wykonaną usługę. Uruchomienie strony www, lub sklepu.
+              <br>
+              7. Jeżeli strona jest z panelem CMS, wykonujemy szkolenie. W przypadku sklepów, zawsze wykonujemy
+              szkolenie z jego obsługi.
+            </div>
+          </div>
+        </div>
+
+
 
 
 
@@ -529,11 +595,13 @@
         <div class="info-box-team-caption">
           <h3>Fabryka IT</h3>
           <p>Wyślij wiadomość</p>
-          <div class="team-social-icons">
-            <a href="https://www.facebook.com/profile.php?id=100002472035831"><i class="fa-brands fa-facebook"></i></a>
+          <a class="mailto" href="mailto:fabryka@fabrykait.com.pl">fabryka@fabrykait.com.pl</a>
+
+          <!-- <div class="team-social-icons"> -->
+            <!-- <a href="https://www.facebook.com/profile.php?id=100002472035831"><i class="fa-brands fa-facebook"></i></a> -->
             <!-- <a href=""><i class="fa-brands fa-instagram"></i></a> -->
-            <a href="https://www.linkedin.com/in/michalrosadzinski/"><i class="fa-brands fa-linkedin"></i></a>
-          </div>
+            <!-- <a href="https://www.linkedin.com/in/michalrosadzinski/"><i class="fa-brands fa-linkedin"></i></a> -->
+          <!-- </div> -->
         </div>
       </div>
       <div class="text">
@@ -555,7 +623,7 @@
           swoje przychody.</p>
         <p>Sytuacja ta stała się dla nas inspiracją do otworzenia Fabryki i poprzez dostarczanie zaawansowanych
           technologii informatycznych, wspieranie firm w ich rozwoju. Dzięki naszemu doświadczeniu i wykształceniu,
-          zapewniamy najwyższą jakość świadczonych  usług. </p>
+          zapewniamy najwyższą jakość świadczonych usług. </p>
       </div>
     </div>
   </section>
@@ -572,7 +640,7 @@
           <span class="img-holder">
             <img src="IMG/icon-map.png" alt="map">
           </span>
-          <p>FABRYKA IT<br>ul. Banacha 33<br>31-235 Kraków</p>
+          <p>FABRYKA IT<br>ul. Banacha 33 lokal 39<br>31-235 Kraków</p>
         </div>
         <div class="contact-item">
           <span class="img-holder">
@@ -587,17 +655,17 @@
             <img src="IMG/icon-tel.png" alt="Phone">
           </span>
           <p>
-            <span>+48 731 226 555</span>
+            <a href="tel:+48721871625">+48 721 871 625</a>
           </p>
         </div>
       </div>
       <a class="logo" href="#">
         <img src="IMG/logo.png" alt="LOGO"></a>
-      <div class="contact-social-media">
+      <!-- <div class="contact-social-media">
         <h3>Dołącz do nas</h3>
-        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a> -->
         <!-- <a href=""><i class="fa-brands fa-instagram"></i></a> -->
-        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <!-- <a href=""><i class="fa-brands fa-linkedin"></i></a> -->
       </div>
     </div>
     <div class="rights">
